@@ -16,6 +16,27 @@ public class SumMeanMinMax {
 		/*
 		 * Todo: Print the sum, mean, max Value and min Value of a, b and c.
 		 * */
+		int R1 = a+b+c;
+		int R2 = R1/3;
+		if(a<b && a<c) {
+			System.out.println("min Value a  "+ a);
+		}else if(b<c && b<a) {
+			System.out.println("min Value b "+ b);
+		}else {
+			System.out.println("min value c " +c);
+		}
+		if(a>b && a>c) {
+			System.out.println("max value a"+a);
+		}else if(b>c && b>a) {
+			System.out.println(" max value b" + b);
+		}else {
+			System.out.println("max value c "+ c);
+		}
+		
+	
+		System.out.println("Sum"+ " = " +R1);
+		System.out.println("mean"+" = " + R2);
+		
 		
 
 	}
